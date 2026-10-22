@@ -118,7 +118,7 @@ local function patrol()
         for _, node in ipairs(nodes) do
             if not entity or not entity.Parent then return end
             if node:IsA("BasePart") then
-                EntityMoveTo(node.CFrame + Vector3.new(0, 4, 0))
+                EntityMoveTo(node.CFrame + Vector3.new(0, 0, 0))
             end
         end
     else
