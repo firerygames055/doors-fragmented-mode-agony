@@ -8,8 +8,8 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 -- ====== Configuration ======
-local entityspeed = 30
-local killRange = 15 -- Distance in studs to trigger death
+local entityspeed = 20
+local killRange = 10 -- Distance in studs to trigger death
 local entityName = "Agony"
 local assetId = "rbxassetid://13764812657"
 
